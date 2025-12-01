@@ -18,7 +18,7 @@ $service = new Google_Service_Sheets($client);
 if(isset($_POST['input_key']) && $_POST['input_key']) $input_key = mb_strtolower($_POST['input_key'],'UTF-8');
 // toast error
 else {
-    toast_create('danger','Vui lòng nhập email của bạn');
+    toast_create('danger','Vui lòng nhập email của bạn / Please input your email.');
     route();
 }
 
@@ -41,7 +41,7 @@ if(empty($_SESSION['data']) || (time() - $_SESSION['temp']['time']) > REQUEST_AP
 
         // checks exist
         if (empty($_SESSION['data'])) {
-            toast_create('danger', '[WARNING] Dữ liệu bảng Sheet đang trống !');
+            toast_create('danger', '[WARNING] Dữ liệu bảng Sheet đang trống ! / Datasheet is null');
             route();
         }
 
@@ -52,7 +52,7 @@ if(empty($_SESSION['data']) || (time() - $_SESSION['temp']['time']) > REQUEST_AP
     catch (Google_Service_Exception $e) {
         // error 429: too many request in time
         if ($e->getCode() == 429) {
-            toast_create('danger', 'Hệ thống đang quá tải !Vui lòng thử lại sau '.REQUEST_API_TIME.' giây');
+            toast_create('danger', 'Hệ thống đang quá tải !Vui lòng thử lại sau '.REQUEST_API_TIME.' giây / Overload ! Please try again after '.REQUEST_API_TIME.' second !');
             route();
         }else die($e);
     }
@@ -63,8 +63,8 @@ foreach ($_SESSION['data'] as $row) {
     // reset old result & roomate
     $_SESSION['temp']['result'] = null;
     $_SESSION['temp']['roomate'] = null;
-    // find input
-    if($input_key === ltrim($row[1],"'")) {
+    // find input with suffix @on-running.com in email
+    if($input_key.'@on-running.com' === ltrim($row[1],"'")) {
         // save in session temp
         $_SESSION['temp']['result'] = $row;
 
@@ -80,7 +80,7 @@ foreach ($_SESSION['data'] as $row) {
 
 // route
 if(empty($_SESSION['temp']['result'])) {
-    toast_create('danger','Không tìm thấy thông tin của email này');
+    toast_create('danger','Không tìm thấy thông tin của email này / This email is invalid !');
     route();
 }else {
     route('result');

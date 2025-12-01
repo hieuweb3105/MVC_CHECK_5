@@ -28,7 +28,7 @@
     <div class="col-12 col-md-8 col-lg-6 d-flex flex-column gap-3 gap-lg-1 bg-dark bg-opacity-50 p-3 rounded-4 mb-lg-0 shadow text-light animate__animated animate__bounceInLeft">
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
             <div class="fw-bold">
-                Họ và tên
+                Họ và tên / Full name
             </div>
             <div class="fw-info fs-4">
                 <?= $_SESSION['temp']['result'][0] ?>
@@ -36,7 +36,7 @@
         </div>
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
             <div class="fw-bold">
-                Số phòng
+                Số phòng / No. room
             </div>
             <div class="fw-info fs-4">
                 <?= $_SESSION['temp']['result'][8] ?? '<span class="small fst-italic">(trống)</span>' ?>
@@ -52,7 +52,7 @@
         </div> -->
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
             <div class="fw-bold">
-                Người ở cùng
+                Người ở cùng / Together
             </div>
             <div class="fw-info fs-4 text-center text-lg-end">
                 <?php
@@ -67,7 +67,7 @@
         </div>
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
             <div class="fw-bold">
-                Hạng phòng
+                Hạng phòng / Room Category
             </div>
             <div class="fw-info fs-4">
                 <?= $_SESSION['temp']['result'][6] ?? '<span class="small fst-italic">(trống)</span>' ?>

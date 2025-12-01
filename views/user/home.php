@@ -1,14 +1,16 @@
 <div class="container d-flex justify-content-center sposition-absolute">
     <div class="col-12 col-md-8 col-lg-6">
         <form method="post" action="/check" class="d-flex flex-column align-items-center justify-content-center mt-5 bg-dark bg-opacity-50 rounded-1 p-3 p-md-4 p-lg-5 animate__animated animate__jello shadow">
-            <label for="name" class="text-light fw-bold fs-5 text-center mb-2 text-uppercase">
-                Vui lòng nhập email của bạn
+            <label for="name" class="text-light fw-bold fs-6 text-center mb-2 mb-lg-4 text-uppercase">
+                Vui lòng nhập username-email của bạn
+                <br>Please input your username email
             </label>
-            <div class="col-12 col-md-8">
-                <input id="name" name="input_key" type="text" class="form-control w-100 text-center" placeholder="nhập email của bạn tại đây">
+            <div class="col-12 col-md-8 input-group w-100">
+                <input id="name" name="input_key" type="text" class="form-control text-end" placeholder="example : doe.john_001" value="<?= ($_SESSION['temp']['input'])??'' ?>">
+                <span class="input-group-text small"><small>@on-running.com</small></span>
             </div>
             <button type="submit" class="fw-bold btn-light btn mt-3 px-3">
-                Xác nhận
+                Xác nhận / Confirm
             </button>
         </form>
     </div>

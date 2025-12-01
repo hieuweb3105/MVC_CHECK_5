@@ -11,15 +11,21 @@
                     --- Cảm ơn ---
                 </div>
             </div>
+            <div class="mt-2">
+                THD Event sincerely thanks you for taking the time to evaluate and provide feedback to help THD Event improve and enhance the quality of our services! We wish you and the conference great success.
+                <div class="mt-1">
+                    --- Thank you ---
+                </div>
+            </div>
         </div>
     </div>
     <div class="col-12 col-md-6 col-lg-5 mt-3">
         <div class="row px-3 gap-2">
             <a href="/result" class="btn btn-light d-inline col-12">
-            Xem thông tin
+                Trang thông tin / View page
             </a>
             <a href="/result" class="btn btn-light d-inline col-12">
-                Trang chủ
+                Trang chủ / Home page
             </a>
         </div>
     </div>
