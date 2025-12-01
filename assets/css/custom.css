@@ -58,10 +58,12 @@
 }
 
 body {
-    background-image: url('/assets/file/system/bg-mobile.jpg');
+    background-image: url('/assets/file/system/bg-desk.png');
     background-size: contain; /* Để ảnh phủ toàn bộ */
-    background-position: none;
     background-repeat: repeat;
+    background-position: none;
+    min-height: 100vh;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -74,19 +76,6 @@ body {
 .thank {
     font-family: 'E Oblique', sans-serif;
 }
-
-@media (min-width: 992px) { /* Desktop */
-    body {
-        background-image: url('/assets/file/system/bg-desk.png');
-    }
-}
-
-@media (max-width: 992px) { /* Desktop */
-    body {
-        min-height: 100vh;
-    }
-}
-
 
 .heading-2 {
     font-family: 'E Demi Bold', sans-serif;
