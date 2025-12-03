@@ -70,7 +70,7 @@
                 Hạng phòng / Room Category
             </div>
             <div class="fw-info fs-4">
-                <?= $_SESSION['temp']['result'][6] ?? '<span class="small fst-italic">(trống)</span>' ?>
+                <?= $_SESSION['temp']['result'][6] ?? '<span class="small fst-italic">trống / empty</span>' ?>
             </div>
         </div>
     </div>
