@@ -43,7 +43,7 @@
             </div>
         </div>
         <!-- <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
-            <div class="fw-bold text-center">
+            <div class="fw-bold text-ce nter">
                 Số người ở cùng
             </div>
             <div class="fw-info fs-4">
@@ -52,7 +52,7 @@
         </div> -->
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
             <div class="fw-bold">
-                Người ở cùng / Roomate
+                Người ở cùng / Roommate
             </div>
             <div class="fw-info fs-4 text-center text-lg-end">
                 <?php
