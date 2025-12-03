@@ -52,7 +52,7 @@
         </div> -->
         <div class="d-flex flex-column flex-lg-row align-items-center justify-content-lg-between">
             <div class="fw-bold">
-                Người ở cùng / Together
+                Người ở cùng / Roomate
             </div>
             <div class="fw-info fs-4 text-center text-lg-end">
                 <?php
@@ -61,7 +61,7 @@
                         echo $person[0] . '<br>';
                     }
                 } else { ?>
-                    <span class="small text-light fst-italic">không có / empty</span>
+                    <span class="small text-light fst-italic">Không có / No</span>
                 <?php } ?>
             </div>
         </div>
