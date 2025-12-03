@@ -61,7 +61,7 @@
                         echo $person[0] . '<br>';
                     }
                 } else { ?>
-                    <span class="small text-light fst-italic">không có</span>
+                    <span class="small text-light fst-italic">không có / empty</span>
                 <?php } ?>
             </div>
         </div>
