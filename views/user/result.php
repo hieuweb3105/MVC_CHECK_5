@@ -84,23 +84,23 @@
 </div> -->
 
 <div class="col-12 col-md-8 col-lg-4 mt-4 px-2 animate__animated animate__bounceInRight animate__delay-1s">
-    <img class="w-100" src="<?= URL_STORAGE ?>system/timeline_1.png" alt="timeline_1.png">
+    <img class="w-100" src="<?= URL_STORAGE ?>system/timeline_1.jpg" alt="timeline_1.jpg">
 </div>
 
 <div class="col-12 col-md-8 col-lg-4 mt-4 px-2 animate__animated animate__bounceInRight animate__delay-2s">
-    <img class="w-100" src="<?= URL_STORAGE ?>system/timeline_2.png" alt="timeline_2.png">
+    <img class="w-100" src="<?= URL_STORAGE ?>system/timeline_2.jpg" alt="timeline_2.jpg">
 </div>
 
 <div class="col-12 col-md-8 col-lg-4 mt-4 px-2 animate__animated animate__bounceInRight animate__delay-3s">
-    <img class="w-100" src="<?= URL_STORAGE ?>system/timeline_3.png" alt="timeline_3.png">
+    <img class="w-100" src="<?= URL_STORAGE ?>system/timeline_3.jpg" alt="timeline_3.jpg">
 </div>
 
 <div class="col-12 col-md-8 col-lg-4 mt-4 px-2 animate__animated animate__bounceInRight animate__delay-4s">
-    <img class="w-100" src="<?= URL_STORAGE ?>system/timeline_4.png" alt="timeline_4.png">
+    <img class="w-100" src="<?= URL_STORAGE ?>system/timeline_4.jpg" alt="timeline_4.jpg">
 </div>
 
 <div class="col-12 col-md-8 col-lg-4 mt-4 px-2 animate__animated animate__bounceInRight animate__delay-5s">
-    <img class="w-100" src="<?= URL_STORAGE ?>system/timeline_5.png" alt="timeline_5.png">
+    <img class="w-100" src="<?= URL_STORAGE ?>system/timeline_5.jpg" alt="timeline_5.jpg">
 </div>
 
 <div class="col-12 col-md-8 col-lg-4 mt-4 px-2 animate__animated animate__bounceInRight animate__delay-5s">
